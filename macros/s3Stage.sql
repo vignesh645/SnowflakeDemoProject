@@ -2,7 +2,7 @@
 
   {% set sql %}
     create or replace stage my_s3_stage url='s3://snowflakeproject/Sales.csv'
-    credentials=(aws_key_id='AKIAJKN5I577XDENHAHQ' aws_secret_key='lLzoiYU4Y+nYnOaHLHtUO3kKzv5WISkjd+HYQrNy')
+    credentials=(aws_key_id='XXXX' aws_secret_key='XXXX')
     file_format =(type='CSV');
   {% endset %}
 
